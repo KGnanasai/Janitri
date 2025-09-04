@@ -1,0 +1,15 @@
+JanitriLoginAutomation/
+│
+├── pom.xml
+├── testng.xml
+├── README.md
+│
+├── /src
+│   ├── /main
+│   │   └── /java/com/janitri/pages
+│   │       └── LoginPage.java
+│   │
+│   └── /test
+│       └── /java/com/janitri/tests
+│           ├── BaseTest.java
+│           └── LoginPageTest.java

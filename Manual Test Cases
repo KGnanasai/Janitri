@@ -1,0 +1,41 @@
+| TC\_ID | Test Scenario | Test Steps | Test Data | Expected Result | Actual Result | Status (Pass/Fail) | Notes |
+| ------ | ------------- | ---------- | --------- | --------------- | ------------- | ------------------ | ----- |
+
+
+✅ Positive Test Cases
+
+Valid Login – Enter valid email/password and verify dashboard loads.
+
+Password visibility toggle works correctly
+
+Login button is enabled after valid input
+
+❌ Negative Test Cases
+
+Blank email & password
+
+Blank email, valid password
+
+Invalid email format
+
+Wrong password
+
+Unregistered email
+
+SQL Injection (e.g., ' OR '1'='1)
+
+XSS Injection (e.g., <script>alert(1)</script>)
+
+🎨 UI/UX & Boundary Test Cases
+
+Presence of all input fields and buttons
+
+Password field masks input by default
+
+Field accepts max 255 characters
+
+Page title = “Janitri Dashboard”
+
+"Forgot Password" link exists
+
+Eye icon for password visibility toggle
